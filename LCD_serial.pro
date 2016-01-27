@@ -1,4 +1,4 @@
-update=Wed 27 Jan 2016 09:44:41 NZDT
+update=Wed 27 Jan 2016 15:49:35 NZDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/gvj/Kicad/library/74xx_gj
+LibName30=/home/gvj/Kicad/library/display_lcd
+LibName31=Library/LCD_serial
