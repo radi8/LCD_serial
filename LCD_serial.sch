@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LCD_serial-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -163,7 +164,7 @@ Wire Wire Line
 	4700 4600 4700 2800
 Connection ~ 4700 2800
 $Comp
-L CONN_01X05 P1
+L CONN_01X05-RESCUE-LCD_serial P1
 U 1 1 56A87E0E
 P 4450 3000
 F 0 "P1" H 4450 3300 50  0000 C CNN
