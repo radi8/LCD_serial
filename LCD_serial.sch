@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:LCD_serial-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -164,11 +163,11 @@ Wire Wire Line
 	4700 4600 4700 2800
 Connection ~ 4700 2800
 $Comp
-L CONN_01X05-RESCUE-LCD_serial P1
-U 1 1 56A87E0E
+L CONN_01X05_GJ P1
+U 1 1 56A96551
 P 4450 3000
 F 0 "P1" H 4450 3300 50  0000 C CNN
-F 1 "CONN_01X05" V 4550 3000 50  0001 C CNN
+F 1 "CONN_01X05_GJ" V 4550 3000 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4450 3000 50  0001 C CNN
 F 3 "" H 4450 3000 50  0000 C CNN
 	1    4450 3000

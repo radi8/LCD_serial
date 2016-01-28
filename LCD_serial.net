@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/gvj/Kicad/LCD_serial/LCD_serial.sch)
-    (date "Wed 27 Jan 2016 21:40:38 NZDT")
+    (date "Thu 28 Jan 2016 13:47:56 NZDT")
     (tool "Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,11 +40,11 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56A82A63))
     (comp (ref P1)
-      (value CONN_01X05)
+      (value CONN_01X05_GJ)
       (footprint Pin_Headers:Pin_Header_Straight_1x05)
-      (libsource (lib conn) (part CONN_01X05))
+      (libsource (lib LCD_serial) (part CONN_01X05_GJ))
       (sheetpath (names /) (tstamps /))
-      (tstamp 56A87E0E)))
+      (tstamp 56A96551)))
   (libparts
     (libpart (lib LCD_serial) (part 74LS164)
       (aliases
@@ -68,7 +68,7 @@
         (pin (num 12) (name QG) (type output))
         (pin (num 13) (name QH) (type output))
         (pin (num 14) (name VCC) (type power_in))))
-    (libpart (lib conn) (part CONN_01X05)
+    (libpart (lib LCD_serial) (part CONN_01X05_GJ)
       (description "Connector 01x05")
       (footprints
         (fp Pin_Header_Straight_1X05)
@@ -77,7 +77,7 @@
         (fp Socket_Strip_Angled_1X05))
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_01X05))
+        (field (name Value) CONN_01X05_GJ))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -138,12 +138,10 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical display)
-      (uri /usr/share/kicad/library/display.lib))
     (library (logical LCD_serial)
-      (uri /home/gvj/Kicad/LCD_serial/Library/LCD_serial.lib)))
+      (uri /home/gvj/Kicad/LCD_serial/Library/LCD_serial.lib))
+    (library (logical display)
+      (uri /usr/share/kicad/library/display.lib)))
   (nets
     (net (code 1) (name "Net-(DS1-Pad7)")
       (node (ref DS1) (pin 7)))

@@ -2,11 +2,11 @@
 
   (general
     (links 18)
-    (no_connects 18)
+    (no_connects 16)
     (area 142.416576 98.7786 171.478334 143.355)
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 4)
     (zones 0)
     (modules 5)
     (nets 13)
@@ -44,7 +44,9 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.45)
+    (user_trace_width 0.35)
+    (user_trace_width 0.45)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -337,5 +339,10 @@
       (rotate (xyz 0 0 90))
     )
   )
+
+  (segment (start 148.5011 107.5436) (end 165.9636 107.5436) (width 0.45) (layer B.Cu) (net 11) (status C00000))
+  (segment (start 165.9636 107.5436) (end 166.37 107.95) (width 0.45) (layer B.Cu) (net 11) (tstamp 56A885F1) (status C00000))
+  (segment (start 148.5011 105.0036) (end 165.9636 105.0036) (width 0.45) (layer B.Cu) (net 12) (status C00000))
+  (segment (start 165.9636 105.0036) (end 166.37 105.41) (width 0.45) (layer B.Cu) (net 12) (tstamp 56A885E7) (status C00000))
 
 )

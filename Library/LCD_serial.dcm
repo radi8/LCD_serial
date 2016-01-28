@@ -5,7 +5,7 @@ D Shift Register 8 bits non latching (Serial in // out )
 K TTL SR Shift
 $ENDCMP
 #
-$CMP CONN_01X05
+$CMP CONN_01X05_GJ
 D Connector 01x05
 $ENDCMP
 #
